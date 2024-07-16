@@ -1,0 +1,68 @@
+/* App.css */
+
+  .app1{
+    
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    background-color: rgb(0, 0, 0);
+    color: rgba(178, 165, 21, 0.936);
+     /* Adjusted height to accommodate content */
+    height: 100vh;
+    margin: 0px;
+    padding: 0%;
+  }
+  
+  
+  .top-row {
+    display: flex; /* Items in top row should be displayed in a row */
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+  }
+  
+  .left-side {
+    flex: 1; /* Equal width for both left-side and right-side */
+    padding: 5px;
+    margin-top: 20%;
+    
+    
+  }
+  
+  .right-side {
+    display: flex; /* Display its contents in a row */
+    flex-direction: column; /* Stack contents vertically inside right-side */
+    align-items: flex-end;
+  }
+  
+  .right-side img {
+    width: 25px;
+    height:auto ;
+    margin-left: 20px;
+    margin-right:20px;
+    max-width: 100%;
+    flex-shrink: 0;
+    
+  }
+  
+
+  
+  /* Media query for smaller screens */
+  @media (max-width: 800px) {
+    .left-side , .portfolio-card, p {
+      font-size: 15px; /* Decrease font size for smaller screens */
+      align-items: center;
+      text-align: center;
+    }
+    .top-row {
+      grid-template-columns: 1fr; /* Single column layout on smaller screens */
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .portfolio-cards {
+      display: flex;
+      flex-direction: column; /* Place cards side by side */
+      flex-wrap:nowrap /* Allow cards to wrap to the next line */
+    }
+  
+  
+  }
+  

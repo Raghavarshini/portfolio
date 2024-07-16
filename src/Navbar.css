@@ -1,0 +1,40 @@
+/* Navbar.css (or add to your existing CSS file) */
+
+header {
+    background-color: #000; /* Black background */
+    padding: 10px 0; /* Padding for top and bottom */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content:center;
+  }
+
+
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+    color: #d6b80a;
+  }
+  
+  .navbar a {
+    color: #ffd700; /* Gold text color */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #fff; /* White text color on hover */
+  }
+  
