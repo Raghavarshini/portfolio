@@ -14,7 +14,7 @@ const HomePage = () => {
     'a Data Analyst',
     'a Software Developer',
     'a Cloud Solution Architect',
-    'the one you are looking for'
+    'the candidate you are looking for'
   ];
 
 
@@ -37,12 +37,13 @@ const HomePage = () => {
 
   return (
     <div className="app2">
+      
     <div className="app1">
         
         <div className="left-side1">
         <div className="cardout1">  
       <h1>
-        Hi! I am {' '} 
+        Hi! I am Raghavarshini Ganesan{' '} 
         <Animate
           play // start the animation
           duration={1} // duration of animation
@@ -79,20 +80,65 @@ const HomePage = () => {
             </button>
             {activePopup === 'devops' && (
               <div>
-                <h2>DevOps</h2>
-                <p>Content for DevOps</p>
+                <h2>DevOps- CICD</h2>
+                <p>
+                <li>AZURE DEVOPS</li>
+                <li>BAMBOO</li>
+                <li>JENKINS</li>
+                <li>VERSION CONTROL</li>
+                <li>BITBUCKET & GIT</li>
+                <li>DOCKER IMAGE INTEGRATION</li>
+                <li>SHELL/BATCH/YAML SCRIPTING</li>
+                <li>SONAQUBE FOR QUALITY GATE & CHECKS</li>
+                <li>URBAN CODE DEPLOY</li>
+                <li>ATLASSIAN JSM & JIRA</li>
+                <li>CONTAINERIZATION- KUBERNETES</li>
+                <li>ON PREMISE & CLOUD MIGRATION</li>
+                <li>ATLASIAN ADMINISTRATION RBAC</li>
+                <li>SSO & LDAP INTEGRATION</li>
+                <li>AZURE ACTIVE DIRECTORY</li>
+                <li>ITSM & WORKFLOW CONFIGURATION</li>
+                <li>SERVER DEPLOYMENT FOR MULTI REGIONS</li>
+                <li>PLUGIN INTEGRATIONS WITH CICD</li>
+                </p>
               </div>
             )}
             {activePopup === 'dataAnalytics' && (
               <div>
                 <h2>Data Analytics</h2>
-                <p>Content for Data Analytics</p>
+                <p>
+                <li>PYTHON</li>
+                <li>ETL</li>
+                <li>POWER BI</li>
+                <li>QLIKSENSE</li>
+                <li>TABLEAU</li>
+                <li>D3.JS</li>
+                <li>DATA CLEANING</li>
+                <li>PYTORCH</li>
+                <li>SENTIMENT ANALYSIS</li>
+                <li>DATA MINING</li>
+                <li>DATABASE ADMINISTRATION- SQL</li>
+                <li>SPSS- QUANTITATIVE & QUALITATIVE ANALYSIS</li>
+
+                </p>
               </div>
             )}
             {activePopup === 'software' && (
               <div>
                 <h2>Software</h2>
-                <p>Content for Software</p>
+                <p>
+                <li>JAVA</li>
+                <li>OOPS</li>
+                <li>MYSQL</li>
+                <li>REACT</li>
+                <li>POSTMAN</li>
+                <li>JAVASCRIPT</li>
+                <li>AGILE METHODOLOGIES</li>
+                <li>SCRUM</li>
+                <li>UNIT TEST CASE</li>
+                <li>SQL AUTOMATION</li>
+                <li>IIS SETUP</li>
+                </p>
               </div>
             )}
           </div>
