@@ -4,6 +4,7 @@ import { Animate } from 'react-simple-animate';
 import 'react-typist/dist/Typist.css';
 import './HomePage.css';
 import ragha from './ragha.png';
+import resume from './resume.pdf';
 
 const HomePage = () => {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -54,6 +55,12 @@ const HomePage = () => {
         </Animate>
       </h1>
       </div>
+      <div className='resume'>
+        <button>PLEASE CLICK HERE TO:
+        <a href={resume} download="Your_Resume.pdf" className="resume-button">
+        Download Resume
+      </a></button>
+        </div>
         </div>
         <div className="right-side1">
         <img src={ragha} alt="Background" />
@@ -61,15 +68,18 @@ const HomePage = () => {
         
         </div>
         <div className="section2">
-        <h2>LET ME INTRODUCE MYSELF:</h2>
-        <p>Hi there! With over 4 years of experience in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions.</p>
-        <p>My Expertise can be broadly classified into 3 domains - Devops, Data Analytics & Software Development</p>
+        
+        <h2> ABOUT ME:</h2>
+        <p>With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. My roots are from India, where I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm where I worked in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.  With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project. After completing this milestone, I started working in Singapore as a Software Engineer again. I am so grateful for the learnings and opportunities I have been exposed to in my career path and hope that I will be on track with the latest technological advancements and I look forward to new experiences everyday. </p>
+        <p>My Expertise & knowledge that I have been Exposed to can be broadly classified into 3 domains as follows. Please click to know more in detail: </p>
       
         <div className="buttons">
-          <button onClick={() => handleButtonClick('devops')}>DevOps</button>
-          <button onClick={() => handleButtonClick('dataAnalytics')}>Data Analytics</button>
-          <button onClick={() => handleButtonClick('software')}>Software</button>
+          <button onClick={() => handleButtonClick('devops')}>Devops & Automation</button>
+          <button onClick={() => handleButtonClick('dataAnalytics')}>Analytics & Data Engineering</button>
+          <button onClick={() => handleButtonClick('software')}>Software Development</button>
         </div>
+
+        
         
         
       {activePopup && (
@@ -80,7 +90,7 @@ const HomePage = () => {
             </button>
             {activePopup === 'devops' && (
               <div>
-                <h2>DevOps- CICD</h2>
+                <h2>DevOps- CICD Tools & Technologies</h2>
                 <p>
                 <li>AZURE DEVOPS</li>
                 <li>BAMBOO</li>
@@ -105,7 +115,7 @@ const HomePage = () => {
             )}
             {activePopup === 'dataAnalytics' && (
               <div>
-                <h2>Data Analytics</h2>
+                <h2>Data Analytics & visualization Toolstack</h2>
                 <p>
                 <li>PYTHON</li>
                 <li>ETL</li>
@@ -125,7 +135,7 @@ const HomePage = () => {
             )}
             {activePopup === 'software' && (
               <div>
-                <h2>Software</h2>
+                <h2>Coding languages, Design & Fundemental Toolstack</h2>
                 <p>
                 <li>JAVA</li>
                 <li>OOPS</li>

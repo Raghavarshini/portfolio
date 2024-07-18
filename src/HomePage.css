@@ -141,6 +141,13 @@
   cursor: pointer;
 }
 
+button{
+  color: #060600;
+  margin-top: 10PX;
+  background-color: #c7be10;
+  
+}
+
 /* Media query for smaller screens */
 @media (max-width: 200px) {
  
