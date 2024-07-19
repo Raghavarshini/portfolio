@@ -88,17 +88,20 @@
   color: rgb(152, 149, 10);
   align-items:start;
   z-index: 1;
+  background-color: #060600;
 
 }
 
 .buttons {
   margin-top: 20px;
+  background-color: #000000;
+  
 }
 
 .buttons button {
   margin-right: 10px;
   padding: 10px 20px;
-  background-color: #444;
+  background-color: #434342;
   color: #c7be10;
   border: none;
   border-radius: 5px;

@@ -5,6 +5,7 @@ import 'react-typist/dist/Typist.css';
 import './HomePage.css';
 import ragha from './ragha.png';
 import resume from './resume.pdf';
+import Certifications from './Certifications';
 
 const HomePage = () => {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -77,10 +78,14 @@ const HomePage = () => {
           <button onClick={() => handleButtonClick('devops')}>Devops & Automation</button>
           <button onClick={() => handleButtonClick('dataAnalytics')}>Analytics & Data Engineering</button>
           <button onClick={() => handleButtonClick('software')}>Software Development</button>
+        
+        <br></br>
+        <br></br>
+        
+        <h2>MY CERTIFICATIONS:</h2>
+        
+        <div><Certifications/></div>
         </div>
-
-        
-        
         
       {activePopup && (
         <div className="popup">
