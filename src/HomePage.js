@@ -27,7 +27,7 @@ const HomePage = () => {
       setRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
     }, 1000); // Delay before changing the role
     return () => clearTimeout(timeout);
-  }, [roleIndex]);
+  }, [roleIndex, roles.length]);
 
 
   const handleButtonClick = (section) => {
