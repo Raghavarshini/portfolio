@@ -1,6 +1,6 @@
 // Certifications.js
 import React from 'react';
-import { PiCertificateDuotone , PiDownloadDuotone} from 'react-icons/pi';
+import { PiCertificateDuotone } from 'react-icons/pi';
 import './Certifications.css';
 
 const certifications = [
