@@ -1,7 +1,7 @@
 // components/HomePage.js
 import React, { useState , useEffect} from 'react';
 import { Animate } from 'react-simple-animate';
-import 'react-typist/dist/Typist.css';
+//import 'react-typist/dist/Typist.css';
 import './HomePage.css';
 import ragha from './ragha.png';
 
