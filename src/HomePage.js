@@ -4,8 +4,10 @@ import { Animate } from 'react-simple-animate';
 import 'react-typist/dist/Typist.css';
 import './HomePage.css';
 import ragha from './ragha.png';
-import resume from './resume.pdf';
+
+import { PiFinnTheHumanFill } from 'react-icons/pi';
 import Certifications from './Certifications';
+
 
 const HomePage = () => {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -23,7 +25,7 @@ const HomePage = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
-    }, 3000); // Delay before changing the role
+    }, 1000); // Delay before changing the role
     return () => clearTimeout(timeout);
   }, [roleIndex]);
 
@@ -44,9 +46,9 @@ const HomePage = () => {
         
         <div className="left-side1">
         <div className="cardout1">  
-      <h1>
+        <h1>
         Hi! I am Raghavarshini Ganesan{' '} 
-        <Animate
+         <Animate
           play // start the animation
           duration={1} // duration of animation
           start={{ opacity: 0 }}
@@ -54,39 +56,38 @@ const HomePage = () => {
         >
           {roles[roleIndex]}
         </Animate>
-      </h1>
+        </h1>
       </div>
-      <div className='resume'>
-        <button>PLEASE CLICK HERE TO:
-        <a href={resume} download="Your_Resume.pdf" className="resume-button">
-        Download Resume
-      </a></button>
-        </div>
-        </div>
+      
+              </div>
         <div className="right-side1">
         <img src={ragha} alt="Background" />
         </div>
         
         </div>
         <div className="section2">
+        <br></br>
         
-        <h2> ABOUT ME:</h2>
-        <p>With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. My roots are from India, where I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm where I worked in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.  With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project. After completing this milestone, I started working in Singapore as a Software Engineer again. I am so grateful for the learnings and opportunities I have been exposed to in my career path and hope that I will be on track with the latest technological advancements and I look forward to new experiences everyday. </p>
-        <p>My Expertise & knowledge that I have been Exposed to can be broadly classified into 3 domains as follows. Please click to know more in detail: </p>
-      
         <div className="buttons">
+        <h2>MY SKILLSET:</h2>
           <button onClick={() => handleButtonClick('devops')}>Devops & Automation</button>
           <button onClick={() => handleButtonClick('dataAnalytics')}>Analytics & Data Engineering</button>
           <button onClick={() => handleButtonClick('software')}>Software Development</button>
+          
+       
+        </div> 
         
-        <br></br>
-        <br></br>
+        <div className="aboutsection">
+        <h2> ABOUT ME: </h2>
         
+        <p>  With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. My roots are from India, where I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm where I worked in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.  With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project. After completing this milestone, I started working in Singapore as a Software Engineer again. I am so grateful for the learnings and opportunities I have been exposed to in my career path and hope that I will be on track with the latest technological advancements and I look forward to new experiences everyday. </p>
         <h2>MY CERTIFICATIONS:</h2>
         
         <div><Certifications/></div>
-        </div>
+        <br></br>
         
+        <div><PiFinnTheHumanFill/> DESIGNED BY RAGHA</div>
+        </div>
       {activePopup && (
         <div className="popup">
           <div className="popup-content">
@@ -158,9 +159,9 @@ const HomePage = () => {
             )}
           </div>
         </div> 
-      )} </div>
+      )} 
     </div>
-        
+    </div>    
     
     
   );

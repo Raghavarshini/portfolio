@@ -5,31 +5,33 @@
     gap: 20px;
     padding: 10px;
     justify-items: center;
+    background: inherit;
     
   }
   
   .cert-card {
-    background-color:rgba(208, 221, 22, 0.702);
-    border: 1px solid #ddd;
+    background-color:rgba(3, 3, 3, 0.832);
+    border: 1px solid #cbb001;
     border-radius: 1px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(228, 210, 19);
     padding: 10px;
     text-align: start;
     width:200px;
     transition: transform 0.3s;
     height:100px;
-    color: #0e0e0e;
+    color: #dbbb2c;
     
   }
   
   .cert-card:hover {
     transform: translateY(-10px);
+    background: linear-gradient(45deg, #3e1e02, #b08915be, #97ae079a, #edf904c8);
   }
   
   .cert-icon {
     font-size: 2em;
     margin-bottom: 1px;
-    color: #333; /* Change the color as needed */
+    color: #ac9d2aa0; /* Change the color as needed */
   }
   
   .cert-card h3 {
@@ -38,8 +40,8 @@
   }
   
   .cert-card p {
-    font-size: 0.5em;
-    color: #0e0e0e;
+    font-size: 10px;
+    color: #bc8609;
   }
   
   /* Responsive design */

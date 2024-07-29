@@ -23,18 +23,34 @@ header {
   .navbar li {
     margin: 0 10px;
     color: #d6b80a;
+    font-size: 10px;
+    font-weight: bold;
   }
   
   .navbar a {
     color: #ffd700; /* Gold text color */
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     transition: color 0.3s ease;
   }
   
   .navbar a:hover {
-    color: #fff; /* White text color on hover */
+    color: #ec8f1f; /* White text color on hover */
   }
   
+  /* Media query for smaller screens */
+@media (max-width: 800px) {
+ 
+  .navbar a {
+    color: #ffd700; /* Gold text color */
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+
+
+}
