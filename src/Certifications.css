@@ -26,6 +26,7 @@
   .cert-card:hover {
     transform: translateY(-10px);
     background: linear-gradient(45deg, #3e1e02, #b08915be, #97ae079a, #edf904c8);
+    color: aliceblue;
   }
   
   .cert-icon {
@@ -41,7 +42,7 @@
   
   .cert-card p {
     font-size: 10px;
-    color: #bc8609;
+    color: #ecd69c;
   }
   
   /* Responsive design */
