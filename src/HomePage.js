@@ -82,11 +82,11 @@ const HomePage = () => {
         <h2> ABOUT ME: </h2>
         
         <p>  With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. </p>
-        <p><HiMiniTrophy/></p>
+        <><HiMiniTrophy/></>
         <p>I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.</p>
-        <p><TbArrowBigDownLines/></p>
+        <><TbArrowBigDownLines/></>
         <p> With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project.</p>
-        <p><TbArrowBigDownLines/></p>
+        <><TbArrowBigDownLines/></>
         <p> After completing this milestone, I started working in Singapore as a Software Engineer. It has ben over an year & I am so grateful for the learnings and opportunities I have been exposed to in my career path and hope that I will be on track with the latest technological advancements and I look forward to new experiences everyday. </p>
         <h2>MY CERTIFICATIONS:</h2>
         
