@@ -5,7 +5,7 @@ import { Animate } from 'react-simple-animate';
 import './HomePage.css';
 import ragha from './ragha.png';
 import { TbArrowBigDownLines } from "react-icons/tb";
-
+import { HiMiniTrophy } from "react-icons/hi2";
 import { PiFinnTheHumanFill } from 'react-icons/pi';
 import Certifications from './Certifications';
 
@@ -82,7 +82,7 @@ const HomePage = () => {
         <h2> ABOUT ME: </h2>
         
         <p>  With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. </p>
-        <p><TbArrowBigDownLines/></p>
+        <p><HiMiniTrophy/></p>
         <p>I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.</p>
         <p><TbArrowBigDownLines/></p>
         <p> With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project.</p>
