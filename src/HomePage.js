@@ -69,7 +69,7 @@ const HomePage = () => {
         <br></br>
         
         <div className="buttons">
-        <h2>MY SKILLSET: CLICK ON EACH SKILL TO KNOW MORE !  </h2>
+        <h2>EXPERTISE - CLICK ON EACH SKILL TO VIEW KNOWN TOOLSTACK</h2>
           <button onClick={() => handleButtonClick('devops')}>Devops & Automation</button>
           <button onClick={() => handleButtonClick('dataAnalytics')}>Analytics & Data Engineering</button>
           <button onClick={() => handleButtonClick('software')}>Software Development</button>
@@ -80,7 +80,10 @@ const HomePage = () => {
         <div className="aboutsection">
         <h2> ABOUT ME: </h2>
         
-        <p>  With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. My roots are from India, where I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm where I worked in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.  With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project. After completing this milestone, I started working in Singapore as a Software Engineer again. I am so grateful for the learnings and opportunities I have been exposed to in my career path and hope that I will be on track with the latest technological advancements and I look forward to new experiences everyday. </p>
+        <p>  With over 4 years of my expertise in the tech industry, I've had the opportunity to work on a variety of challenging projects across multiple domains where I've honed my skills and delivered impactful solutions. </p>
+        <p>I completed my Bachelors Degree in Computer Science Engineering after which I worked as a Senior Systems Engineer at a leading firm in React & Java - Cloud based projects. I got the wonderful opportunity to work in a Critical Healthcare Project with a USA client and this is where I was introduced to Devops.</p>
+        <p> With my never ending thirst to adapt to recent trends and technologies I had moved to Singapore to Pursue my masters Degree in Information Systems at NTU. The overall experience was exciting and exposed me to newer domain of Data Analytics. I also worked part time as a Software Research Intern in an Ongoing Sustainability Project.</p>
+        <p> After completing this milestone, I started working in Singapore as a Software Engineer. It has ben over an year & I am so grateful for the learnings and opportunities I have been exposed to in my career path and hope that I will be on track with the latest technological advancements and I look forward to new experiences everyday. </p>
         <h2>MY CERTIFICATIONS:</h2>
         
         <div><Certifications/></div>
