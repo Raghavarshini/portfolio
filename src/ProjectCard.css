@@ -31,7 +31,7 @@
   justify-content: center;
   color: rgb(47, 47, 46);
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .project-card-back {
@@ -52,7 +52,7 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .project-card {
     max-width: 300px; /* Reduce max width for smaller screens */
     height: 50px; /* Allow height to adjust based on content */
@@ -71,7 +71,7 @@
 }
 
 .project-card-back p{
-  font-size: 8px;
+  font-size: 5px;
 }
 
 }
