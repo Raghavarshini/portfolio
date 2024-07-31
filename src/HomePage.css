@@ -186,7 +186,7 @@ button{
  .app1{
   height: 50%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
  }
 
  .right-side1 img {
