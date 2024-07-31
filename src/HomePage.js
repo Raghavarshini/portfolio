@@ -69,7 +69,7 @@ const HomePage = () => {
         <br></br>
         
         <div className="buttons">
-        <h2>MY SKILLSET:</h2>
+        <h2>MY SKILLSET: CLICK ON EACH SKILL TO KNOW MORE !  </h2>
           <button onClick={() => handleButtonClick('devops')}>Devops & Automation</button>
           <button onClick={() => handleButtonClick('dataAnalytics')}>Analytics & Data Engineering</button>
           <button onClick={() => handleButtonClick('software')}>Software Development</button>
