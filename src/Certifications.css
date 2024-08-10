@@ -1,7 +1,7 @@
 /* Certifications.css */
 .certifications {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 10px;
     justify-items: center;
@@ -9,18 +9,22 @@
     
   }
   
+  
+
   .cert-card {
-    background-color:rgba(3, 3, 3, 0.832);
+    
+    position: relative; /* Required for z-index to work */
+    background-color: rgba(3, 3, 3, 0.832);
     border: 1px solid #cbb001;
     border-radius: 1px;
     box-shadow: 0 4px 6px rgb(228, 210, 19);
     padding: 10px;
     text-align: start;
-    width:200px;
+    width: 200px;
     transition: transform 0.3s;
-    height:100px;
+    height: 100px;
     color: #dbbb2c;
-    
+    cursor: pointer; /* Change cursor on hover to indicate clickability */
   }
   
   .cert-card:hover {
@@ -45,6 +49,8 @@
     color: #ecd69c;
   }
   
+
+
   /* Responsive design */
 @media (max-width: 900px) {
     .certifications {
