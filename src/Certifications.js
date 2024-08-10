@@ -1,6 +1,6 @@
 // Certifications.js
 
-import React, { useState } from 'react';
+import React from 'react';
 import { PiCertificateDuotone } from 'react-icons/pi';
 import './Certifications.css';
 import { FaExternalLinkAlt } from "react-icons/fa";
